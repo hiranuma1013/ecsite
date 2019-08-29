@@ -53,11 +53,6 @@
                background-color: black;
                clear: both;
             }
-
-            #text-right{
-               display: inline-block;
-               text-align: right;
-            }
       </style>
 </head>
 <body>
@@ -97,14 +92,14 @@
                                     <td><s:property value="itemDetailsDTO.insert_date" /></td>
                               </tr>
                         </table>
+                        <br>
                         <s:form action="ItemDeleteConfirmAction">
                               <s:hidden name="id" value="%{id}" />
                               <s:submit value="削除" />
                         </s:form>
                   </s:elseif>
-                  <div id="text-right">
-                        <p>商品一覧は<a href='<s:url action="ItemListAction" />'>こちら</a></p>
-                  </div>
+                  <p>商品一覧は<a href='<s:url action="ItemListAction" />'>こちら</a></p>
+                  <p>管理者TOP画面へ戻る場合は<a href='admin.jsp'>こちら</a></p>
             </div>
       </div>
       <div id="footer">

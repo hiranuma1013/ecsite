@@ -96,14 +96,14 @@
                                     <td><s:property value="userInfoDTO.insert_date" /></td>
                               </tr>
                         </table>
+                        <br>
                         <s:form action="UserDeleteConfirmAction">
                               <s:submit value="削除" />
                               <s:hidden name="loginId" value="%{loginId}"/>
                         </s:form>
                   </s:elseif>
-                  <div id="text-right">
-                        <p>管理者TOP画面へ戻る場合は<a href='admin.jsp'>こちら</a></p>
-                  </div>
+                  <p>ユーザー一覧は<a href='<s:url action="UserListAction" />'>こちら</a></p>
+                  <p>管理者TOP画面へ戻る場合は<a href='admin.jsp'>こちら</a></p>
             </div>
       </div>
       <div id="footer">

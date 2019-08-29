@@ -84,6 +84,8 @@
                   <s:submit value="一覧"/>
                   </s:form>
             </div>
+            <p>Homeへ戻る場合は
+                              <a href='<s:url action="GoHomeAction" />'>こちら</a></p>
       </div>
 </body>
 </html>

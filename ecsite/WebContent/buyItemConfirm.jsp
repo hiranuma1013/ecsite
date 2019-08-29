@@ -68,7 +68,7 @@
       </div>
       <div id="main">
             <div id="top">
-                  <p>BuyItem</p>
+                  <p>BuyItemConfirm</p>
             </div>
             <div>
                   <s:form>
@@ -92,8 +92,8 @@
                               <td><br></td>
                         </tr>
                               <tr>
-                                    <td><input type="button" value="戻る" onclick="submitAction('HomeAction')" /></td>
                                     <td><input type="button" value="完了" onclick="submitAction('BuyItemConfirmAction')" /></td>
+                                    <td><input type="button" value="戻る" onclick="submitAction('HomeAction')" /></td>
                               </tr>
                   </s:form>
             </div>

@@ -64,6 +64,7 @@
 
             <action name="ItemCreateConfirmAction" class="com.internousdev.ecsite.action.ItemCreateConfirmAction" method="execute">
             <result name="success">itemCreateConfirm.jsp</result>
+            <result name="error">itemCreate.jsp</result>
             </action>
 
             <action name="ItemCreateCompleteAction" class="com.internousdev.ecsite.action.ItemCreateCompleteAction" method="execute">

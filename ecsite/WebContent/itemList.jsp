@@ -103,6 +103,7 @@
                         <td><s:submit value="削除"/></td>
                   </tr>
                   </s:form>
+                  <p>管理者TOP画面へ戻る場合は<a href='admin.jsp'>こちら</a></p>
             </div>
       </div>
       <div id="footer">

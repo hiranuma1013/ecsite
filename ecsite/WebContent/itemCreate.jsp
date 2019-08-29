@@ -63,35 +63,39 @@
             <div id="top">
                   <p>ItemCreate</p>
             </div>
-            <table>
-            <s:form action="ItemCreateConfirmAction">
-                  <tr>
-                        <td>
-                              <label>商品名:</label>
-                        </td>
-                        <td>
-                              <input type="text" name="itemName" value=""/>
-                        </td>
-                  </tr>
-                  <tr>
-                        <td>
-                              <label>価格:</label>
-                        </td>
-                        <td>
-                              <input type="text" name="itemPrice" value=""/>
-                        </td>
-                  </tr>
-                  <tr>
-                        <td>
-                              <label>個数:</label>
-                        </td>
-                        <td>
-                              <input type="text" name="itemStock" value=""/>
-                        </td>
-                  </tr>
+                  <s:if test="errorMessage !=''">
+                        <s:property value="errorMessage" escape="false" />
+                  </s:if>
+                  <table>
+                  <s:form action="ItemCreateConfirmAction">
+                        <tr>
+                              <td>
+                                    <label>商品名:</label>
+                              </td>
+                              <td>
+                                    <input type="text" name="itemName" value=""/>
+                              </td>
+                        </tr>
+                        <tr>
+                              <td>
+                                    <label>価格:</label>
+                              </td>
+                              <td>
+                                    <input type="text" name="itemPrice" value=""/>
+                              </td>
+                        </tr>
+                        <tr>
+                              <td>
+                                    <label>個数:</label>
+                              </td>
+                              <td>
+                                    <input type="text" name="itemStock" value=""/>
+                              </td>
+                        </tr>
                   <s:submit value="登録"/>
-            </s:form>
-            </table>
+                  </s:form>
+                  <p>管理者TOP画面へ戻る場合は<a href='admin.jsp'>こちら</a></p>
+                  </table>
       </div>
       <div id="fotter">
             <div id="pr">
