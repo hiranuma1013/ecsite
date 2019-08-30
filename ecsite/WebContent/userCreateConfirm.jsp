@@ -11,7 +11,6 @@
       <meta name="description" content="" />
       <meta name="keywords" content="" />
       <title>UserCreateConfirm画面</title>
-
       <style type="text/css">
             body{
                margin: 0;

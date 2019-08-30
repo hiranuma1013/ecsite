@@ -11,7 +11,6 @@
       <meta name="description" content="" />
       <meta name="keywords" content="" />
       <title>UseCreateComplete画面</title>
-
       <style type="text/css">
             body{
                margin: 0;
@@ -53,7 +52,6 @@
                background-color: black;
                clear: both;
             }
-
       </style>
 </head>
 <body>
@@ -66,7 +64,7 @@
                   <p>UserCreateComplete</p>
             </div>
             <div>
-                  <h3>ユーザーの登録が完了致しました。</h3>
+                  <h3>ユーザーの登録が完了しました。</h3>
                   <div>
                         <a href='<s:url action="HomeAction" />'>ログインへ</a>
                   </div>

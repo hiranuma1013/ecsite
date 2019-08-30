@@ -23,11 +23,6 @@
                background: #fff;
             }
 
-            table{
-               text-align: center;
-               margin: 0 auto;
-            }
-
             #top{
                width: 780px;
                margin: 30px auto;
@@ -64,9 +59,9 @@
                   <p>ItemCreateComplete</p>
             </div>
             <div>
-                  <h3>登録完了</h3>
+                  <h3>商品の登録が完了しました。</h3>
                   <div>
-                        <a href='<s:url action="AdminAction" />'>管理者TOP</a>
+                        <a href='<s:url action="AdminAction" />'>管理者TOPへ</a>
                   </div>
             </div>
       </div>

@@ -52,11 +52,6 @@
                background-color: black;
                clear: both;
             }
-
-            #text-right{
-               display: inline-block;
-               text-align: right;
-            }
       </style>
 </head>
 <body>

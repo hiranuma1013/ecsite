@@ -11,7 +11,7 @@
       <meta name="description" content="" />
       <meta name="keywords" content="" />
       <title>Admin画面</title>
-      <style>
+      <style type="text/css">
             body{
                margin: 0;
                padding: 0;

@@ -97,7 +97,7 @@
                   <p>管理者TOP画面へ戻る場合は<a href='admin.jsp'>こちら</a></p>
                   </table>
       </div>
-      <div id="fotter">
+      <div id="footer">
             <div id="pr">
             </div>
       </div>

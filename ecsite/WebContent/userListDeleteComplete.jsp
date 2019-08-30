@@ -70,7 +70,7 @@
             </div>
             <h3>ユーザ情報を削除しました。</h3>
             <div id="text-right">
-                  <a href='<s:url action="AdminAction" />'>管理者TOP</a>
+                  <a href='<s:url action="AdminAction" />'>管理者TOPへ</a>
             </div>
       </div>
       <div id="footer">

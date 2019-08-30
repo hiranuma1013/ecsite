@@ -12,7 +12,6 @@
       <meta name="keywords" content="" />
       <title>商品一覧画面</title>
       <style type="text/css">
-
             body{
                margin: 0;
                padding: 0;
